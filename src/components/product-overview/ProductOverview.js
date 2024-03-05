@@ -215,8 +215,8 @@ const ProductOverview = ({ product, reviews }) => {
                 <div className="flex items-center justify-between">
                   <h3 className="text-md font-medium text-gray-900">Size</h3>
                   <Link
-                    to="/luna-demo/error/"
-                    className="text-sm font-medium text-indigo-600 hover:text-indigo-500"
+                    to="/sade-adey/error/"
+                    className="text-sm font-medium text-gray-600 hover:text-gray-500"
                   >
                     Size Guide
                   </Link>

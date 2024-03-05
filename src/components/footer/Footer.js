@@ -1,32 +1,35 @@
 import React from 'react'
-import logo from '../../assets/logos/logo.png';
+import SadeAdey from "../../assets/logos/luna-letter.png";
+
 
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
   return (
     <footer aria-label="Site Footer" class="bg-gray-300">
       <div class="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          <div>
+          <div class=''>
             {/* Company Logo */}
-            <Link to='/luna-demo/'>
+            <Link to='/sade-demo/'>
               <img
-                class="h-24"
+                class="h-30"
                 viewBox="0 0 118 24"
-                src={logo}
+                src={SadeAdey}
                 alt="logo"
               />
             </Link>
 
             {/* Side Headings */}
-            <p class="max-w-xs mt-4 text-gray-500">Established in 2023</p>
-            <p class="max-w-xs mt-2 text-gray-500">Based in California</p>
+            <p class="max-w-xs mt-4 text-gray-500">Established in {currentYear}</p>
+            <p class="max-w-xs mt-2 text-gray-500">Based in Nigeria</p>
             <a href='mailto:contact@luna.io
                         ?subject=Luna%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Inquiries]%20
                         &body=Type%20Your%20Message%20Here'>
-                <p class="max-w-xs mt-2 text-gray-500 hover:underline hover:text-indigo-600">
-                  contact@luna.io
+                <p class="max-w-xs mt-2 text-gray-500 hover:underline hover:text-gray-900">
+                  contact@sadeadey.io
                 </p>
             </a>
 
@@ -38,7 +41,7 @@ const Footer = () => {
                   href="https://www.facebook.com/"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-gray-700 transition hover:text-indigo-600"
+                  class="text-gray-700 transition hover:text-gray-900"
                 >
                   <span class="sr-only">Facebook</span>
 
@@ -63,7 +66,7 @@ const Footer = () => {
                   href="https://www.instagram.com/"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-gray-700 transition hover:text-indigo-600"
+                  class="text-gray-700 transition hover:text-gray-900"
                 >
                   <span class="sr-only">Instagram</span>
 
@@ -88,7 +91,7 @@ const Footer = () => {
                   href="https://twitter.com/"
                   rel="noreferrer"
                   target="_blank"
-                  class="text-gray-700 transition hover:text-indigo-600"
+                  class="text-gray-700 transition hover:text-gray-900"
                 >
                   <span class="sr-only">Twitter</span>
 
@@ -105,31 +108,6 @@ const Footer = () => {
                 </a>
               </li>
               
-              {/* GitHub */}
-              <li>
-                <a
-                  href="https://github.com/gchang2004/luna-demo"
-                  rel="noreferrer"
-                  target="_blank"
-                  class="text-gray-700 transition hover:text-indigo-600"
-                >
-                  <span class="sr-only">GitHub</span>
-
-                  <svg
-                    class="w-6 h-6"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </a>
-              </li>
-
             </ul>
           </div>
 
@@ -141,31 +119,31 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Services" class="mt-6">
                 <ul class="space-y-4 text-sm">
                   <li>
-                    <Link to="/luna-demo/women/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/women/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Women
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/men/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/men/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Men
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/new-arrivals/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/new-arrivals/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       New Arrivals
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Accessories
                     </Link>
                   </li>
 
                   <li>
-                    <a href="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <a href="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Brands
                     </a>
                   </li>
@@ -180,25 +158,25 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Company" class="mt-6">
                 <ul class="space-y-4 text-sm">
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
-                      About Luna
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                      About Sade Adey
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Careers
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Investors
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Sustainability
                     </Link>
                   </li>
@@ -213,31 +191,31 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Company" class="mt-6">
                 <ul class="space-y-4 text-sm">
                   <li>
-                    <Link to="/luna-demo/sign-in/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/sign-in/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       My Account
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Find a Store
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/"class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/"class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Order Status
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Refund & Exchange
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Shipping & Deliveries
                     </Link>
                   </li>
@@ -252,19 +230,19 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Legal" class="mt-6">
                 <ul class="space-y-4 text-sm">
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Privacy Policy
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Terms & Conditions
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/luna-demo/error/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Accessibility
                     </Link>
                   </li>
@@ -273,7 +251,7 @@ const Footer = () => {
                     <a href='mailto:contact@luna.io
                         ?subject=Luna%20Support:%20[INSERT%20Name]%20-%20[For%20Questions%20or%20Inquiries]%20
                         &body=Type%20Your%20Message%20Here'
-                        class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                        class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Contact Us
                     </a>
                   </li>
@@ -285,7 +263,7 @@ const Footer = () => {
         </div>
 
         {/* COPYRIGHT TEXT */}
-        <p class="flex justify-center items-center text-xs text-gray-500">&copy; 2023 Luna Inc. All Rights Reserved.</p>
+        <p class="flex justify-center items-center text-xs text-gray-500">&copy; {currentYear} Sade Adey Inc. All Rights Reserved.</p>
       </div>
     </footer>
   )

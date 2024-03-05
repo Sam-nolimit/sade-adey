@@ -17,11 +17,11 @@
     
         // Category Filter
         subCategories: [
-            { name: 'Tops', href:'/luna-demo/men/clothing/tops'},
-            { name: 'Bottoms', href: '/luna-demo/men/clothing/bottoms' },
-            { name: 'Innerwear', href: '/luna-demo/men/clothing/innerwear' },
-            { name: 'Outerwear', href: '/luna-demo/men/clothing/outerwear' },
-            { name: 'Activewear', href: '/luna-demo/men/clothing/activewear' },
+            { name: 'Tops', href:'sade-adey/men/clothing/tops'},
+            { name: 'Bottoms', href: 'sade-adey/men/clothing/bottoms' },
+            { name: 'Innerwear', href: 'sade-adey/men/clothing/innerwear' },
+            { name: 'Outerwear', href: 'sade-adey/men/clothing/outerwear' },
+            { name: 'Activewear', href: 'sade-adey/men/clothing/activewear' },
         ],
     
         // Specific Category Filters

@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 import Marquee from "react-fast-marquee";
 
 // stagger motion animation
@@ -10,35 +10,51 @@ const containerMotion = {
 // animation parameters for TEXT
 const textMotion = {
   //movement = FADE-IN
-  hidden: { opacity: 0, y:-10}, // INITIAL STAGE
-  visible: { opacity: 1, y:0, transition: { duration: 0.5, ease: 'easeInOut' }}, // ANIMATION STAGE
+  hidden: { opacity: 0, y: -10 }, // INITIAL STAGE
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5, ease: "easeInOut" },
+  }, // ANIMATION STAGE
 };
 
 const Brands = () => {
   return (
-    <motion.div className="bg-white py-10"
+    <motion.div
+      className="bg-white py-10"
       initial="hidden"
       whileInView="visible"
-      viewport={{once: true, amount: 0.5}}
+      viewport={{ once: true, amount: 0.5 }}
       variants={containerMotion}
-      >
+    >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* INTRODUCTION TEXT */}
-        <motion.div className='flex items-center justify-center' variants={textMotion}>
+        <motion.div
+          className="flex items-center justify-center"
+          variants={textMotion}
+        >
           <h2 className="text-center text-lg font-semibold leading-8 text-gray-900 mr-1">
             Collaboration with
           </h2>
-          <h2 className="text-center text-lg font-semibold leading-8 text-transparent bg-clip-text bg-gradient-to-l from-blue-500 to-purple-500">
+          <h2 className="text-center text-lg font-semibold leading-8 text-transparent bg-clip-text bg-gradient-to-l from-gray-900 to-gray-800">
             brands you love
           </h2>
           <h2 className="text-center text-lg font-semibold leading-8 text-gray-900 ml-1">
             around the world
           </h2>
         </motion.div>
-        
+
         {/* ROTATING BRAND MARQUEE */}
-        <motion.div className="flex items-center justify-center mx-auto mt-10 max-w-none" variants={textMotion}>
-          <Marquee pauseOnHover="true" speed={35} gradient={true} gradientWidth={25}>
+        <motion.div
+          className="flex items-center justify-center mx-auto mt-10 max-w-none"
+          variants={textMotion}
+        >
+          <Marquee
+            pauseOnHover="true"
+            speed={35}
+            gradient={true}
+            gradientWidth={25}
+          >
             <a href="https://www2.hm.com/en_us/index.html">
               <img
                 className="max-h-12 w-full object-contain mr-16"
@@ -53,14 +69,14 @@ const Brands = () => {
                 alt="H&M"
               />
             </a>
-            <a href='https://www.patagonia.com/home/'>
+            <a href="https://www.patagonia.com/home/">
               <img
                 className="max-h-12 w-full object-contain mr-16"
                 src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Patagonia_%28Unternehmen%29_logo.svg"
                 alt="Patagonia"
               />
             </a>
-            <a href='https://www.suspiciousantwerp.com/'>
+            <a href="https://www.suspiciousantwerp.com/">
               <img
                 className="max-h-12 w-full object-contain mr-16"
                 src="https://cdn.shopify.com/s/files/1/1610/4725/files/sspcs_new_main-01_9d2ef6b5-6965-455b-829d-2792245f8c39.png?v=1632727014"
@@ -88,7 +104,7 @@ const Brands = () => {
                 alt="PrettyLittleThing"
               />
             </a>
-            <a href='https://www.zara.com/us/'>
+            <a href="https://www.zara.com/us/">
               <img
                 className="max-h-12 w-full object-contain mr-16"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Zara_Logo.svg/1024px-Zara_Logo.svg.png"
@@ -104,10 +120,9 @@ const Brands = () => {
             </a>
           </Marquee>
         </motion.div>
-        
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Brands
+export default Brands;

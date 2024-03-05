@@ -44,7 +44,7 @@ const Header = () => {
             <motion.h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl" variants={textMotion}>
               Indulge in the
             </motion.h1>
-            <motion.h1 className="text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-l from-blue-500 to-purple-500 sm:text-6xl" variants={textMotion}>
+            <motion.h1 className="text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-l from-gray-200 to-gray-900 sm:text-6xl" variants={textMotion}>
               extraordinary
             </motion.h1>
             <motion.h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mt-2" variants={textMotion}>
@@ -136,7 +136,7 @@ const Header = () => {
 
             {/* HEADER BUTTON */}
             <motion.span variants={textMotion}>
-              <Link to="/luna-demo/new-arrivals/" className="inline-block rounded-full border border-transparent bg-indigo-600 px-4 lg:px-8 py-2 lg:py-3 text-center font-medium text-white transition-transform duration-300 transform hover:scale-95 hover:bg-gradient-to-l from-blue-500 to-purple-500 shadow-lg">
+              <Link to="/sade-adey/new-arrivals/" className="inline-block rounded-full border border-transparent bg-gray-900 px-4 lg:px-8 py-2 lg:py-3 text-center font-medium text-white transition-transform duration-300 transform hover:scale-95 hover:bg-gradient-to-l from-gray-500 to-gray-500 shadow-lg">
                 Explore Collection
               </Link>
             </motion.span>

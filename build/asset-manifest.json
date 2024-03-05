@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/luna-demo/static/css/main.b3fc149e.css",
-    "main.js": "/luna-demo/static/js/main.d10f7b9e.js",
-    "static/media/armstrong.png": "/luna-demo/static/media/armstrong.47604bd49c7c78af6cbf.png",
-    "static/media/logo.png": "/luna-demo/static/media/logo.de4c42c9fa220fb32b83.png",
-    "static/media/luna-letter.png": "/luna-demo/static/media/luna-letter.4d2107375af4876f5869.png",
-    "index.html": "/luna-demo/index.html",
-    "main.b3fc149e.css.map": "/luna-demo/static/css/main.b3fc149e.css.map",
-    "main.d10f7b9e.js.map": "/luna-demo/static/js/main.d10f7b9e.js.map"
+    "main.css": "/sade-adey/static/css/main.bc8a09e2.css",
+    "main.js": "/sade-adey/static/js/main.18571fd4.js",
+    "static/media/luna-letter.png": "/sade-adey/static/media/luna-letter.bb27b6c4fba9fc9fa336.png",
+    "index.html": "/sade-adey/index.html",
+    "main.bc8a09e2.css.map": "/sade-adey/static/css/main.bc8a09e2.css.map",
+    "main.18571fd4.js.map": "/sade-adey/static/js/main.18571fd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3fc149e.css",
-    "static/js/main.d10f7b9e.js"
+    "static/css/main.bc8a09e2.css",
+    "static/js/main.18571fd4.js"
   ]
 }
