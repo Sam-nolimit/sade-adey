@@ -76,7 +76,7 @@ const validatePassword = () => {
       {/* LOGO + Title */}
       <div className="sm:mx-auto  sm:w-full sm:max-w-sm">
         <motion.span variants={textMotion}>
-          <Link to="/sade-adey/">
+          <Link to="/">
             <img
               className="mx-auto h-18 w-auto"
               src={SadeAdey}
@@ -141,7 +141,7 @@ const validatePassword = () => {
               {/* Forgot Password Link */}
               <div className="text-sm">
                 <Link
-                  to="/sade-adey/error/"
+                  to="/error/"
                   className="font-semibold text-gray-600 hover:text-gray-500"
                 >
                   Forgot Password?

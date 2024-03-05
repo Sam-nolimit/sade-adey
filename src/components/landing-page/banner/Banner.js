@@ -42,7 +42,7 @@ function Banner(props) {
 
             {/* BANNER BUTTON */}
             <Link
-              to="/sade-adey/sign-in/"
+              to="/sign-in/"
               className="flex-none rounded-full bg-white text-gray-600 px-3.5 py-1 text-sm font-semibold shadow-sm hover:bg-gray-600 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 transition-transform duration-300 transform hover:scale-95"
             >
               Join Today &rarr;

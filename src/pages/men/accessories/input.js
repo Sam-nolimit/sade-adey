@@ -16,11 +16,11 @@ const Input = {
   
     // Category Filter
     subCategories: [
-        { name: 'Hats', href:'/sade-adey/men/accessories/hats'},
-        { name: 'Sunglasses', href: '/sade-adey/men/accessories/sunglasses' },
-        { name: 'Belts', href: '/sade-adey/men/accessories/belts' },
-        { name: 'Wallets', href: '/sade-adey/men/accessories/wallets' },
-        { name: 'Bags & Backpacks', href: '/sade-adey/men/accessories/bagsbackpacks' },
+        { name: 'Hats', href:'/men/accessories/hats'},
+        { name: 'Sunglasses', href: '/men/accessories/sunglasses' },
+        { name: 'Belts', href: '/men/accessories/belts' },
+        { name: 'Wallets', href: '/men/accessories/wallets' },
+        { name: 'Bags & Backpacks', href: '/men/accessories/bagsbackpacks' },
     ],
   
     // Specific Category Filters

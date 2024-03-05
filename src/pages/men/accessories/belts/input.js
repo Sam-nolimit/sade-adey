@@ -17,11 +17,11 @@
     
         // Category Filter
         subCategories: [
-            { name: 'Tops', href:'/sade-adey/men/clothing/tops'},
-            { name: 'Bottoms', href: '/sade-adey/men/clothing/bottoms' },
-            { name: 'Innerwear', href: '/sade-adey/men/clothing/innerwear' },
-            { name: 'Outerwear', href: '/sade-adey/men/clothing/outerwear' },
-            { name: 'Activewear', href: '/sade-adey/men/clothing/activewear' },
+            { name: 'Tops', href:'/men/clothing/tops'},
+            { name: 'Bottoms', href: '/men/clothing/bottoms' },
+            { name: 'Innerwear', href: '/men/clothing/innerwear' },
+            { name: 'Outerwear', href: '/men/clothing/outerwear' },
+            { name: 'Activewear', href: '/men/clothing/activewear' },
         ],
     
         // Specific Category Filters

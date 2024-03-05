@@ -11,7 +11,7 @@ const products = [
     id: 1,
     name: "Palm Silk T-Shirt",
     category: "Men's Casual T-Shirts",
-    href: "/sade-adey/men/clothing/tops/basic-tee/",
+    href: "/men/clothing/tops/basic-tee/",
     price: "$158.00",
     quantity: 2,
     imageSrc:
@@ -22,7 +22,7 @@ const products = [
     id: 2,
     name: "Medium Stuff Satchel",
     category: "Women's Accessories",
-    href: "/sade-adey/error/",
+    href: "/error/",
     price: "$60.00",
     quantity: 1,
     imageSrc:
@@ -33,7 +33,7 @@ const products = [
     id: 3,
     name: "Coastal Breeze Polo Shirt",
     category: "Men's Polo Shirt",
-    href: "/sade-adey/error/",
+    href: "/error/",
     price: "$90.00",
     quantity: 2,
     imageSrc:
@@ -44,7 +44,7 @@ const products = [
     id: 4,
     name: "Chip Shot 10-Inch Shorts",
     category: "Men's Pants",
-    href: "/sade-adey/error/",
+    href: "/error/",
     price: "$110.00",
     quantity: 1,
     imageSrc:
@@ -55,7 +55,7 @@ const products = [
     id: 5,
     name: "Palm Silk T-Shirt",
     category: "Men's Casual T-Shirts",
-    href: "/sade-adey/error/",
+    href: "/error/",
     price: "$158.00",
     quantity: 1,
     imageSrc:
@@ -66,7 +66,7 @@ const products = [
     id: 6,
     name: "Medium Stuff Satchel",
     category: "Women's Accessories",
-    href: "/sade-adey/error/",
+    href: "/error/",
     price: "$60.00",
     quantity: 1,
     imageSrc:
@@ -77,7 +77,7 @@ const products = [
     id: 7,
     name: "Coastal Breeze Polo Shirt",
     category: "Men's Polo Shirt",
-    href: "/sade-adey/error/",
+    href: "/error/",
     price: "$90.00",
     quantity: 2,
     imageSrc:

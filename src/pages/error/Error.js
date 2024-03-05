@@ -41,7 +41,7 @@ const Error = () => {
 
           {/* Company Logo */}
           <motion.span variants={textMotion}>
-            <Link to="/sade-adey/">
+            <Link to="/">
               <img
                 className="mx-auto h-36 w-auto"
                 src={SadeAdey}
@@ -69,7 +69,7 @@ const Error = () => {
             {/* Home Page Button */}
             <motion.span variants={textMotion}>
               <Link
-                to="/sade-adey/"
+                to="/"
                 className="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-md hover:shadow-none hover:bg-grey-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Go back home

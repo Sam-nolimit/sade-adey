@@ -13,7 +13,7 @@ const Footer = () => {
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div class=''>
             {/* Company Logo */}
-            <Link to='/sade-demo/'>
+            <Link to='/'>
               <img
                 class="h-30"
                 viewBox="0 0 118 24"
@@ -119,31 +119,31 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Services" class="mt-6">
                 <ul class="space-y-4 text-sm">
                   <li>
-                    <Link to="/sade-adey/women/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/women/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Women
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/men/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/men/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Men
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/new-arrivals/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/new-arrivals/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       New Arrivals
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Accessories
                     </Link>
                   </li>
 
                   <li>
-                    <a href="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <a href="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Brands
                     </a>
                   </li>
@@ -158,25 +158,25 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Company" class="mt-6">
                 <ul class="space-y-4 text-sm">
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       About Sade Adey
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Careers
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Investors
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Sustainability
                     </Link>
                   </li>
@@ -191,31 +191,31 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Company" class="mt-6">
                 <ul class="space-y-4 text-sm">
                   <li>
-                    <Link to="/sade-adey/sign-in/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/sign-in/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       My Account
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Find a Store
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/"class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/"class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Order Status
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Refund & Exchange
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Shipping & Deliveries
                     </Link>
                   </li>
@@ -230,19 +230,19 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Legal" class="mt-6">
                 <ul class="space-y-4 text-sm">
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Privacy Policy
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Terms & Conditions
                     </Link>
                   </li>
 
                   <li>
-                    <Link to="/sade-adey/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
+                    <Link to="/error/" class="text-gray-700 transition hover:text-gray-900 hover:underline">
                       Accessibility
                     </Link>
                   </li>

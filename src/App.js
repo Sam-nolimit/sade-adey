@@ -32,64 +32,64 @@ const App = () => {
         </Helmet>
 
         <Routes>
-          <Route exact path="/sade-adey/" element={<Home />} />
-          <Route path="/sade-adey/error/" element={<Error />} />
-          <Route path="/sade-adey/sign-in/" element={<SignIn />} />
-          <Route path="/sade-adey/new-arrivals/" element={<NewArrivals />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/error/" element={<Error />} />
+          <Route path="/sign-in/" element={<SignIn />} />
+          <Route path="/new-arrivals/" element={<NewArrivals />} />
 
           {/* Men Clothing */}
-          <Route path="/sade-adey/men/" element={<Men />} />
-          <Route path="/sade-adey/men/clothing/" element={<MenClothing />} />
-          <Route path="/sade-adey/men/accessories/" element={<MenAccesories />} />
-          <Route path="/sade-adey/men/brands/" element={<MenBrands />} />
+          <Route path="/men/" element={<Men />} />
+          <Route path="/men/clothing/" element={<MenClothing />} />
+          <Route path="/men/accessories/" element={<MenAccesories />} />
+          <Route path="/men/brands/" element={<MenBrands />} />
 
-          <Route path="/sade-adey/men/clothing/tops/" element={<Tops />} />
-          <Route path="/sade-adey/men/clothing/bottoms/" element={<Bottoms />} />
-          <Route path="/sade-adey/men/clothing/innerwear/" element={<Innerwear />} />
-          <Route path="/sade-adey/men/clothing/outerwear/" element={<Outerwear />} />
-          <Route path="/sade-adey/men/clothing/activewear/" element={<Activewear />} />
+          <Route path="/men/clothing/tops/" element={<Tops />} />
+          <Route path="/men/clothing/bottoms/" element={<Bottoms />} />
+          <Route path="/men/clothing/innerwear/" element={<Innerwear />} />
+          <Route path="/men/clothing/outerwear/" element={<Outerwear />} />
+          <Route path="/men/clothing/activewear/" element={<Activewear />} />
 
-          <Route path="/sade-adey/men/accessories/hats" element={<Hats />} />
-          <Route path="/sade-adey/men/accessories/sunglasses" element={<Sunglasses />} />
-          <Route path="/sade-adey/men/accessories/belts" element={<Belts />} />
-          <Route path="/sade-adey/men/accessories/wallets" element={<Wallets />} />
-          <Route path="/sade-adey/men/accessories/bagsbackpacks" element={<BagsBackpacks />} />
+          <Route path="/men/accessories/hats" element={<Hats />} />
+          <Route path="/men/accessories/sunglasses" element={<Sunglasses />} />
+          <Route path="/men/accessories/belts" element={<Belts />} />
+          <Route path="/men/accessories/wallets" element={<Wallets />} />
+          <Route path="/men/accessories/bagsbackpacks" element={<BagsBackpacks />} />
 
-          <Route path="/sade-adey/men/clothing/tops/nike1" element={<Nike1 />} />
-          <Route path="/sade-adey/men/clothing/tops/nike2" element={<Nike2 />} />
-          <Route path="/sade-adey/men/clothing/tops/nike3" element={<Nike3 />} />
-          <Route path="/sade-adey/men/clothing/tops/nike4" element={<Nike4 />} />
-          <Route path="/sade-adey/men/clothing/tops/nike5" element={<Nike5 />} />
+          <Route path="/men/clothing/tops/nike1" element={<Nike1 />} />
+          <Route path="/men/clothing/tops/nike2" element={<Nike2 />} />
+          <Route path="/men/clothing/tops/nike3" element={<Nike3 />} />
+          <Route path="/men/clothing/tops/nike4" element={<Nike4 />} />
+          <Route path="/men/clothing/tops/nike5" element={<Nike5 />} />
           
-          <Route path="/sade-adey/men/clothing/bottoms/zara1" element={<Zara1 />} />
-          <Route path="/sade-adey/men/clothing/bottoms/zara2" element={<Zara2 />} />
-          <Route path="/sade-adey/men/clothing/bottoms/zara3" element={<Zara3 />} />
-          <Route path="/sade-adey/men/clothing/bottoms/zara4" element={<Zara4 />} />
-          <Route path="/sade-adey/men/clothing/bottoms/zara5" element={<Zara5 />} />
+          <Route path="/men/clothing/bottoms/zara1" element={<Zara1 />} />
+          <Route path="/men/clothing/bottoms/zara2" element={<Zara2 />} />
+          <Route path="/men/clothing/bottoms/zara3" element={<Zara3 />} />
+          <Route path="/men/clothing/bottoms/zara4" element={<Zara4 />} />
+          <Route path="/men/clothing/bottoms/zara5" element={<Zara5 />} />
 
-          <Route path="/sade-adey/men/clothing/innerwear/tommyjohn1" element={<TommyJohn1 />} />
-          <Route path="/sade-adey/men/clothing/innerwear/tommyjohn2" element={<TommyJohn2 />} />
-          <Route path="/sade-adey/men/clothing/innerwear/tommyjohn3" element={<TommyJohn3 />} />
-          <Route path="/sade-adey/men/clothing/innerwear/tommyjohn4" element={<TommyJohn4 />} />
-          <Route path="/sade-adey/men/clothing/innerwear/tommyjohn5" element={<TommyJohn5 />} />
+          <Route path="/men/clothing/innerwear/tommyjohn1" element={<TommyJohn1 />} />
+          <Route path="/men/clothing/innerwear/tommyjohn2" element={<TommyJohn2 />} />
+          <Route path="/men/clothing/innerwear/tommyjohn3" element={<TommyJohn3 />} />
+          <Route path="/men/clothing/innerwear/tommyjohn4" element={<TommyJohn4 />} />
+          <Route path="/men/clothing/innerwear/tommyjohn5" element={<TommyJohn5 />} />
 
-          <Route path="/sade-adey/men/clothing/outerwear/northface1" element={<NorthFace1 />} />
-          <Route path="/sade-adey/men/clothing/outerwear/northface2" element={<NorthFace2 />} />
-          <Route path="/sade-adey/men/clothing/outerwear/northface3" element={<NorthFace3 />} />
-          <Route path="/sade-adey/men/clothing/outerwear/northface4" element={<NorthFace4 />} />
-          <Route path="/sade-adey/men/clothing/outerwear/northface5" element={<NorthFace5 />} />
+          <Route path="/men/clothing/outerwear/northface1" element={<NorthFace1 />} />
+          <Route path="/men/clothing/outerwear/northface2" element={<NorthFace2 />} />
+          <Route path="/men/clothing/outerwear/northface3" element={<NorthFace3 />} />
+          <Route path="/men/clothing/outerwear/northface4" element={<NorthFace4 />} />
+          <Route path="/men/clothing/outerwear/northface5" element={<NorthFace5 />} />
 
-          <Route path="/sade-adey/men/clothing/activewear/gymshark1" element={<GymShark1 />} />
-          <Route path="/sade-adey/men/clothing/activewear/gymshark2" element={<GymShark2 />} />
-          <Route path="/sade-adey/men/clothing/activewear/gymshark3" element={<GymShark3 />} />
-          <Route path="/sade-adey/men/clothing/activewear/gymshark4" element={<GymShark4 />} />
-          <Route path="/sade-adey/men/clothing/activewear/gymshark5" element={<GymShark5 />} />
+          <Route path="/men/clothing/activewear/gymshark1" element={<GymShark1 />} />
+          <Route path="/men/clothing/activewear/gymshark2" element={<GymShark2 />} />
+          <Route path="/men/clothing/activewear/gymshark3" element={<GymShark3 />} />
+          <Route path="/men/clothing/activewear/gymshark4" element={<GymShark4 />} />
+          <Route path="/men/clothing/activewear/gymshark5" element={<GymShark5 />} />
 
-          <Route path="/sade-adey/men/accessories/hats/adidas1" element={<Adidas1 />} />
-          <Route path="/sade-adey/men/accessories/hats/adidas2" element={<Adidas2 />} />
-          <Route path="/sade-adey/men/accessories/hats/adidas3" element={<Adidas3 />} />
-          <Route path="/sade-adey/men/accessories/hats/adidas4" element={<Adidas4 />} />
-          <Route path="/sade-adey/men/accessories/hats/adidas5" element={<Adidas5 />} />
+          <Route path="/men/accessories/hats/adidas1" element={<Adidas1 />} />
+          <Route path="/men/accessories/hats/adidas2" element={<Adidas2 />} />
+          <Route path="/men/accessories/hats/adidas3" element={<Adidas3 />} />
+          <Route path="/men/accessories/hats/adidas4" element={<Adidas4 />} />
+          <Route path="/men/accessories/hats/adidas5" element={<Adidas5 />} />
 
           {/* Women Clothing */}
 

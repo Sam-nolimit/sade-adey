@@ -23,14 +23,14 @@ const navigation = {
       featured: [
         {
           name: "New Arrivals",
-          href: "/sade-adey/new-arrivals/",
+          href: "/new-arrivals/",
           imageSrc:
             "https://img.freepik.com/premium-photo/model-women-dressed-fashionable-pastel-blazers-pants-with-stylish-sneakers-posing-cube-white-background-studio_8544-2564.jpg?w=740",
           imageAlt: "new arrivals - women",
         },
         {
           name: "Featured",
-          href: "/sade-adey/women/",
+          href: "/women/",
           imageSrc:
             "https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448737.jpg",
           imageAlt: "women collections",
@@ -42,21 +42,21 @@ const navigation = {
         {
           id: "clothing",
           name: "Clothing",
-          href: "/sade-adey/women/clothing/",
+          href: "/women/clothing/",
           items: [
-            { name: "Tops", href: "/sade-adey/women/clothing/tops/" },
-            { name: "Bottoms", href: "/sade-adey/women/clothing/bottoms/" },
+            { name: "Tops", href: "/women/clothing/tops/" },
+            { name: "Bottoms", href: "/women/clothing/bottoms/" },
             {
               name: "Dresses & Skirts",
-              href: "/sade-adey/women/clothing/dresses-&-skirts/",
+              href: "/women/clothing/dresses-&-skirts/",
             },
-            { name: "Innerwear", href: "/sade-adey/women/clothing/innerwear/" },
-            { name: "Outerwear", href: "/sade-adey/women/clothing/outerwear/" },
+            { name: "Innerwear", href: "/women/clothing/innerwear/" },
+            { name: "Outerwear", href: "/women/clothing/outerwear/" },
             {
               name: "Activewear",
-              href: "/sade-adey/women/clothing/activewear/",
+              href: "/women/clothing/activewear/",
             },
-            { name: "Browse All", href: "/sade-adey/women/clothing/" },
+            { name: "Browse All", href: "/women/clothing/" },
           ],
         },
 
@@ -64,20 +64,20 @@ const navigation = {
         {
           id: "accessories",
           name: "Accessories",
-          href: "/sade-adey/women/accessories/",
+          href: "/women/accessories/",
           items: [
-            { name: "Hats", href: "/sade-adey/women/accessories/hats/" },
+            { name: "Hats", href: "/women/accessories/hats/" },
             {
               name: "Sunglasses",
-              href: "/sade-adey/women/accessories/hats/sunglasses/",
+              href: "/women/accessories/hats/sunglasses/",
             },
-            { name: "Belts", href: "/sade-adey/women/accessories/belts/" },
-            { name: "Wallets", href: "/sade-adey/women/accessories/wallets/" },
+            { name: "Belts", href: "/women/accessories/belts/" },
+            { name: "Wallets", href: "/women/accessories/wallets/" },
             {
               name: "Bags & Backpacks",
-              href: "/sade-adey/women/accessories/bags-&-backpacks/",
+              href: "/women/accessories/bags-&-backpacks/",
             },
-            { name: "Browse All", href: "/sade-adey/women/accessories/" },
+            { name: "Browse All", href: "/women/accessories/" },
           ],
         },
 
@@ -85,7 +85,7 @@ const navigation = {
         {
           id: "brands",
           name: "Brands",
-          href: "/sade-adey/women/brands/",
+          href: "/women/brands/",
           items: [
             {
               name: "PrettyLittleThing",
@@ -110,14 +110,14 @@ const navigation = {
       featured: [
         {
           name: "New Arrivals",
-          href: "/sade-adey/new-arrivals/",
+          href: "/new-arrivals/",
           imageSrc:
             "https://img.freepik.com/free-photo/handsome-man-autumn-setting_23-2149056580.jpg?w=740&t=st=1687738996~exp=1687739596~hmac=dfc9d6070d96915d23039569bd9e2e9d717e1ff6f9236f7dcf94307a630450af",
           imageAlt: "new arrivals - men",
         },
         {
           name: "Featured",
-          href: "/sade-adey/men/",
+          href: "/men/",
           imageSrc:
             "https://img.freepik.com/premium-photo/shirt-mockup-concept-with-plain-clothing_23-2149448789.jpg?w=740",
           imageAlt: "mens collection",
@@ -129,14 +129,14 @@ const navigation = {
         {
           id: "clothing",
           name: "Clothing",
-          href: "/sade-adey/men/clothing/",
+          href: "/men/clothing/",
           items: [
-            { name: "Tops", href: "/sade-adey/men/clothing/tops/" },
-            { name: "Bottoms", href: "/sade-adey/men/clothing/bottoms/" },
-            { name: "Innerwear", href: "/sade-adey/men/clothing/innerwear/" },
-            { name: "Outerwear", href: "/sade-adey/men/clothing/outerwear/" },
-            { name: "Activewear", href: "/sade-adey/men/clothing/activewear/" },
-            { name: "Browse All", href: "/sade-adey/men/clothing/" },
+            { name: "Tops", href: "/men/clothing/tops/" },
+            { name: "Bottoms", href: "/men/clothing/bottoms/" },
+            { name: "Innerwear", href: "/men/clothing/innerwear/" },
+            { name: "Outerwear", href: "/men/clothing/outerwear/" },
+            { name: "Activewear", href: "/men/clothing/activewear/" },
+            { name: "Browse All", href: "/men/clothing/" },
           ],
         },
 
@@ -144,20 +144,20 @@ const navigation = {
         {
           id: "accessories",
           name: "Accessories",
-          href: "/sade-adey/men/accessories/",
+          href: "/men/accessories/",
           items: [
-            { name: "Hats", href: "/sade-adey/men/accessories/hats/" },
+            { name: "Hats", href: "/men/accessories/hats/" },
             {
               name: "Sunglasses",
-              href: "/sade-adey/men/accessories/hats/sunglasses/",
+              href: "/men/accessories/hats/sunglasses/",
             },
-            { name: "Belts", href: "/sade-adey/men/accessories/belts/" },
-            { name: "Wallets", href: "/sade-adey/men/accessories/wallets/" },
+            { name: "Belts", href: "/men/accessories/belts/" },
+            { name: "Wallets", href: "/men/accessories/wallets/" },
             {
               name: "Bags & Backpacks",
-              href: "/sade-adey/men/accessories/bagsbackpacks/",
+              href: "/men/accessories/bagsbackpacks/",
             },
-            { name: "Browse All", href: "/sade-adey/men/accessories/" },
+            { name: "Browse All", href: "/men/accessories/" },
           ],
         },
 
@@ -165,7 +165,7 @@ const navigation = {
         {
           id: "collaborations",
           name: "Collaborations",
-          href: "/sade-adey/men/brands/",
+          href: "/men/brands/",
           items: [
             {
               name: "Suspicious Antwerp",
@@ -177,7 +177,7 @@ const navigation = {
               name: "Urban Outfitters",
               href: "/https://www.urbanoutfitters.com/",
             },
-            { name: "Browse All", href: "/sade-adey/men/brands/" },
+            { name: "Browse All", href: "/men/brands/" },
           ],
         },
       ],
@@ -186,8 +186,8 @@ const navigation = {
 
   // Additional NavBar Pages
   pages: [
-    { name: "Company", href: "/sade-adey/error/" },
-    { name: "Stores", href: "/sade-adey/error/" },
+    { name: "Company", href: "/error/" },
+    { name: "Stores", href: "/error/" },
   ],
 };
 
@@ -430,7 +430,7 @@ const NavBar = () => {
                   variants={menuMotion}
                 >
                   <Link
-                    to="/sade-adey/sign-in/"
+                    to="/sign-in/"
                     className="-m-2 block p-2 font-medium text-gray-900 hover:text-gray-600"
                   >
                     Sign In / Create Account
@@ -447,7 +447,7 @@ const NavBar = () => {
                 >
                   {/* American Dollar -> Default Currencey */}
                   <Link
-                    to="/sade-adey/error/"
+                    to="/error/"
                     className="flex items-center text-gray-700 hover:text-gray-800"
                   >
                     <img
@@ -494,7 +494,7 @@ const NavBar = () => {
 
               {/* COMPANY LOGO */}
               <motion.div className="ml-4 flex lg:ml-0" variants={textMotion}>
-                <Link to="/sade-adey/">
+                <Link to="/">
                   <img
                     className="h-20 w-auto"
                     src={SadeAdey}
@@ -666,7 +666,7 @@ const NavBar = () => {
                 >
                   <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-3">
                     {/* Sign In Button */}
-                    <Link to="/sade-adey/sign-in/">
+                    <Link to="/sign-in/">
                       {/* HOME ICON*/}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -689,7 +689,7 @@ const NavBar = () => {
 
                     {/* Create Account Button */}
                     <Link
-                      to="/sade-adey/error/"
+                      to="/error/"
                       className="text-sm font-medium text-gray-800 hover:text-gray-600"
                     >
                       Create Account
@@ -703,7 +703,7 @@ const NavBar = () => {
                   variants={textMotion}
                 >
                   <Link
-                    to="/sade-adey/error/"
+                    to="/error/"
                     className="flex items-center text-gray-800 hover:text-gray-500"
                   >
                     {/* American Dollar -> Default Currencey */}
@@ -723,7 +723,7 @@ const NavBar = () => {
                 {/* Search Icon */}
                 <motion.div className="flex lg:ml-6" variants={textMotion}>
                   <Link
-                    to="/sade-adey/error/"
+                    to="/error/"
                     className="p-2 text-gray-400 hover:text-gray-600"
                   >
                     <MagnifyingGlassIcon
