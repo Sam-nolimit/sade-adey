@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sade-adey/static/css/main.bc8a09e2.css",
-    "main.js": "/sade-adey/static/js/main.18571fd4.js",
+    "main.css": "/sade-adey/static/css/main.c518a955.css",
+    "main.js": "/sade-adey/static/js/main.69961ad2.js",
     "static/media/luna-letter.png": "/sade-adey/static/media/luna-letter.bb27b6c4fba9fc9fa336.png",
     "index.html": "/sade-adey/index.html",
-    "main.bc8a09e2.css.map": "/sade-adey/static/css/main.bc8a09e2.css.map",
-    "main.18571fd4.js.map": "/sade-adey/static/js/main.18571fd4.js.map"
+    "main.c518a955.css.map": "/sade-adey/static/css/main.c518a955.css.map",
+    "main.69961ad2.js.map": "/sade-adey/static/js/main.69961ad2.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc8a09e2.css",
-    "static/js/main.18571fd4.js"
+    "static/css/main.c518a955.css",
+    "static/js/main.69961ad2.js"
   ]
 }

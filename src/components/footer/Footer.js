@@ -18,7 +18,7 @@ const Footer = () => {
                 class="h-30"
                 viewBox="0 0 118 24"
                 src={SadeAdey}
-                alt="logo"
+                alt="company logo"
               />
             </Link>
 
